@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // 动态设置rem
+        function setRem(){
+            
+            var html = document.documentElement;
+            var width = html.getBoundingClientRect().width;
+            var fontSize = width / 30;//默认是1080
+            html.style.fontSize = fontSize+'px';//36px,需要注意的是chrome最小的字体是12px
+        }
+
+        setRem();
+        // 当切换屏幕方向的时候，重置
+        // 小心浏览器在切换屏幕方向有个500毫秒延迟
+        window.addEventListener('orientationchange',function(){
+            setTimeout(() => {
+                setRem();
+            }, 600);
+        },false);
+    </script>
+    <title> index </title>
+    
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/brandstory.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+
+
+</head>
+<body>
+    
+
+
+
+    <!-- 头部组件 -->
+    <div class="header">
+    <div class="header-content">
+        <div class="navigation-btn">
+            <div class="hengxian"></div>
+            <div class="hengxian"></div>
+            <div class="hengxian"></div>
+            <div class="navigation-menu"><span>MENU</span></div>    
+        </div>     
+        <div class="navigation-title">
+            <span class="laprairie">la prairie</span>
+            <span class="SWITZERLAND">SWITZERLAND</span>
+        </div>  
+        <div class="navigation-logo">
+            <a href="javascript:void(0);"><i class="iconfont icon-555"></i></a>
+            <a href="javascript:void(0);"><i class="iconfont icon-search" style="font-size:40px;"></i></a>
+            <a href="javascript:void(0);"><i class="iconfont icon-account" style="font-size:30px;"></i></a>
+            <a href="javascript:void(0);"><i class="iconfont icon-gouwudai"></i></a>
+        </div>         
+    </div>
+    <div class="zixun">
+        <span class="kefudianhua">客服电话：400-853-1616</span>
+        <span class="fuwushijian">服务时间：09:00 — 21:00</span>
+        <span class="nojiejiari">（国定假日除外）</span>
+        <a href=""><input type="button" value="立即咨询"></a>    
+    </div>
+</div>
+<div class="search">
+    <div class="search-form">
+        <i class="fa fa-search" ></i>
+        <input type="text" name="" placeholder="搜索"id="">
+        <i class="iconfont icon-close"></i>  
+        <div class="baixian"></div>
+    </div>
+    <span class="quicklianjie">快速链接</span>
+    <span class="productxilie"><a href="">产品系列</a></span>
+    <span class="hufu"><a href="">护肤</a></span>
+</div>
+
+<div class="myaccount">
+    <i class="iconfont icon-close" ></i>  
+    <span class="title">我的账户</span> 
+    <span class="content">作为我们的尊享会员，您可以享受轻松便捷的<br>
+        结账服务，并在第一时间获悉我们最新的创新<br>
+        <p>产品和会员尊享活动。</p></span>
+    <a href="" class="button signin">登录</a>
+    <a href="" class="button signup">注册</a>
+</div>
+  
+<!-- 侧边栏 -->
+<!-- <div class="siderbar">
+    <i class="iconfont icon-close"></i>  
+    <span class="productslists liebiao"><a href="">产品系列</a></span>
+    <ul class="dropdown dropdown1">
+        <li><a href=""> 产品系列概述 </a></li>
+        <li><a href="">臻爱铂金</a></li>
+        <li><a href="">鱼子精华</a></li>
+        <li><a href="">鱼子精华纯皙</a></li>
+        <li><a href="">晶莹亮采系列</a></li>
+        <li><a href="">亮颜修护</a></li> 
+        <li><a href="">瑞士冰晶新生</a></li>
+    </ul>
+    <span class="hufu liebiao"><a href="">护肤</a></span>
+    <ul class="dropdown dropdown2">
+        <li><a href="">面霜</a></li>
+        <li><a href="">精华</a></li>
+        <li><a href="">眼部和唇部护理</a></li>
+        <li><a href="">洁面乳及爽肤水</a></li>
+        <li><a href="">面膜及磨砂膏</a></li>
+        <li><a href="">特殊护理</a></li>
+        <li><a href="">紫外线防护</a></li>
+        <li><a href="">身体和手部护理</a></li>
+        <li><a href="">我们的终极梦幻系列</a></li>
+    </ul>
+    <span class="xianlimeixue liebiao"><a href="">献礼美学</a></span>
+    <ul class="dropdown dropdown3">
+        <li><a href="">臻选礼物</a></li>
+    </ul>
+    <span class="ourstory liebiao"><a href="">我们的故事</a></span>
+    <ul class="dropdown dropdown4">
+        <li><a href="">品牌蓝图</a></li>
+    </ul>
+    <i class="iconfont icon-moreunfold" id="arrow1" aria-hidden="true"></i>
+    <i class="iconfont icon-moreunfold"  id="arrow2" aria-hidden="true"></i>
+    <i class="iconfont icon-moreunfold"  id="arrow3" aria-hidden="true"></i>
+    <i class="iconfont icon-moreunfold"  id="arrow4" aria-hidden="true"></i>
+
+    <div class="info">
+        <i class=" fa fa-map-marker"  aria-hidden="true"></i>
+        <ul class="zixuninfo">
+            <li>
+                <a href="">查找附近店铺</a><br>
+                <a href="">了解最新品牌资讯</a><br>
+                <a href="">追踪订单</a><br>
+                <a href="">联系我们</a>
+            </li>
+        </ul>
+        <div class="line"></div>
+        <span class="xuanze"><a href="">Select Your Country</a></span> 
+    </div> 
+</div>
+ -->
+
+
+
+
+<div class="nav">
+    <div class="nav-top">
+         <i class="iconfont icon-close"></i>  
+    </div>
+    <ul>
+        <li class="nav-item">
+            <a href="javascript:;">
+                <span>产品系列</span>
+                <i class="my-icon nav-more"></i>
+            </a>
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <span>产品系列概述</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>臻爱铂金</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>鱼子精华</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>鱼子精华纯皙</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>晶莹亮采系列</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>亮颜修护</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>瑞士冰晶新生</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a href="javascript:;">
+                <span>护肤</span>
+                <i class="my-icon nav-more"></i>
+            </a>
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <span>面霜</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>精华</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>眼部和唇部护理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>洁面乳及爽肤水</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>面膜及磨砂膏</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>特殊护理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>紫外线防护</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>身体和手部护理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>我们的终极梦幻系列</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a href="javascript:;">
+                <span>献礼美学</span>
+                <i class="my-icon nav-more"></i>
+            </a>
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <span>臻选礼物</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-item">
+                <a href="javascript:;">
+                     <span>我们的故事</span>
+                    <i class="my-icon nav-more"></i>
+                </a>
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <span>品牌蓝图</span>
+                        </a>
+                    </li>
+                </ul>
+        </li>
+        <div class="info">
+                <i class=" fa fa-map-marker"  aria-hidden="true"></i>
+                <ul class="zixuninfo">
+                    <li>
+                        <a href="">查找附近店铺</a><br>
+                        <a href="">了解最新品牌资讯</a><br>
+                        <a href="">追踪订单</a><br>
+                        <a href="">联系我们</a>
+                    </li>
+                </ul>
+                <div class="line"></div>
+                <span class="xuanze"><a href="">Select Your Country</a></span> 
+        </div> 
+    </ul>
+</div>
+
+
+    <!-- 主体 -->
+    <div class="main">
+    	<div class="brand1"></div>
+		<div class="rich-content ">
+			<a ></a>
+			<div class="rich-content__content">
+				<h3 >从探寻到承诺</h3><br /><br />
+				<p>如果能赋予您更多的时光，并不仅是生命的延长，而是将您如初的美丽延长，这将是一种怎样的人生感受？</p><br />
+				<p>纯净优雅的瑞士莱蒙湖畔，Clinique La Prairie 莱珀妮抗老疗养中心坐落于此，为找寻肌肤新生奥秘而生。Paul Niehans 博士是毕业于瑞士苏黎世大学的一名杰出学者，深信科学是揭开娇颜恒久常驻奥秘的根本关键。经过多年研究，Niehans 博士于 1931 年在 Clinique La Prairie 莱珀妮抗老疗养中心实现了突破，研发出效果令人称奇的活细胞疗法。</p><br />
+				<p>这一方法突破传统，成效有目共睹。这一消息随即在当时社会的上流阶层争相传颂，画家艺术家、贵族名流、各国领导者闻讯后也纷至沓来。Clinique La Prairie 莱珀妮抗老疗养中心很快便成为肌肤新生的圣地 &mdash; 在这片与世无争的纯净之地，时光宛若停驻。</p><br />	
+				<p><img alt="" src="imgs/brandstory-imgs/img1.jpg" title="" width="600" /></p>
+				<p>这一大胆创新的活细胞疗法在当时可谓创举，成为 La Prairie 莱珀妮的独特标志。La Prairie 莱珀妮从抗老疗养中心汲取灵感，研发出了独特的活细胞精华。活细胞精华脱胎于活细胞疗法，是 La Prairie 莱珀妮的灵魂核心，对抗岁月的秘密武器。此后，我们更不计代价寻找功效卓越的奢华成分——臻贵鱼子精华、稀有铂金和华丽黄金，将它们无尽可能地转化入护肤品中。La Prairie 莱珀妮亦将科学升华成了艺术。</p><br />
+				<p><img alt="" src="imgs/brandstory-imgs/img2.jpg" title="" width="600" /></p>
+				<p>La Prairie 莱珀妮的世界总是带来兼备艺术之美和大胆创新的科学突破，将美学和优雅精致提升到新境界。正是出于超乎想象的热忱，La Prairie 莱珀妮从一开始便与艺术结下了不解之缘。对 La Prairie 莱珀妮而言，艺术不仅仅是灵感。更是一种态度。</p><br />
+				<p>La Prairie 莱珀妮始终传承对艺术传统和大胆创新孜孜不倦的精神，追求卓越和优雅，将瑞士的精准、科学的创新、各种臻贵成分融入到卓然有效的驻颜体验和超乎所想的奢华享受中。La Prairie 莱珀妮的无尽探寻已似一种承诺——将岁月仿若停留在年轻如初的时光。<br />	
+				</p>
+			</div>
+		</div>
+    		<div class="brand2"></div>
+    		<div class="rich-content rich-content2">
+			<a ></a>
+			<div class="rich-content__content">
+				<h3 >独特的活细胞精华</h3><br /><br />
+				<p>独特的活细胞精华是 La Prairie 莱珀妮的灵魂核心，为肌肤欣然淡褪岁月痕迹，缔造一个又一个驻颜传奇。自 1978 年品牌诞生近四十年以来，几乎在 La Prairie 莱珀妮的每一款护肤产品中都可以找到活细胞精华的身影，它正是 La Prairie 莱珀妮无尽探寻恒久之美的根本所在。</p><br />
+				<p>它能从源头赋予肌肤细胞活力与能量，有效促进肌肤再生。</p><br />
+				<p>活细胞精华如此超凡脱俗，La Prairie 莱珀妮亦不遗余力地保护它的制造技术。除了使用特别配方和流程外，La Prairie 莱珀妮还使用了三个独立的实验室分工合作，确保活细胞精华制造工艺不外流。其中一个专门用于酵母发酵流程，一个用于微生物发酵流程，第三个用于不同成分的混合调配。没有任何一名技术人员或化学家知道活细胞精华完整确切的配方，至今仍秘而不宣。它的卓越功效也藏着无尽可能。</p>
+			</div>
+		</div>
+    	<div class="brand3"></div>
+    	<div class="rich-content rich-content3">
+			<a ></a>
+			<div class="rich-content__content">
+			<h3>从科学到艺术</h3><br><br>
+			<p>La Prairie 莱珀妮起源于瑞士。瑞士的天空，乃至山川河流，总散发着与世无争的宁静气息，激发了一代又一代艺术家无尽的想象力，将这里作为艺术灵感的源泉。La Prairie 莱珀妮是世界上独树一帜、持续创新、满怀热情的奢华护肤品牌，瑞士就是我们自己，就是我们的一切——精准、纯净与工艺合而为一。</p><br>
+			<p>如同艺术世界聚集了来自全球各地的艺术家，他们热衷于挑战无限可能，La Prairie 莱珀妮大胆创新中同样也彰显出敢为人先的精神。</p><br>
+			<p><img alt="" src="imgs/brandstory-imgs/img3.jpg" title="" width="600" /></p><br>
+			<p>La Prairie 莱珀妮探寻并运用臻贵的成分，无尽可能地转化入奢华护肤品中。超越美学、超越科学，La Prairie 莱珀妮前行的动力来自于艺术。从科学突破背后的苦心研究，到带来感官奢享的愉悦配方；从堪比珠宝的精致包装，到精心定制的奢华感动服务，艺术不仅仅是 La Prairie 莱珀妮本身，更是我们坚持的一切。</p><br>
+			<p><img alt="" src="imgs/brandstory-imgs/img4.jpg" title="" width="600" /></p>
+		</div>
+    	<div class="bgi1 bgcommon">
+			<h3>臻爱铂金</h3>
+			<p>至臻焕颜新生</p>
+			<input type="button" value="了解我们的产品系列">
+		</div>
+		<div class="bgi2 bgcommon">
+			<h3>鱼子精华</h3>
+			<p>提升和紧致</p>
+			<input type="button" value="了解我们的产品系列">
+		</div>
+		<div class="bgi3 bgcommon">
+			<h3>鱼子精华纯皙</h3>
+			<p>亮白紧致</p>
+			<input type="button" value="了解我们的产品系列">
+		</div>
+		<div class="bgi4 bgcommon">
+			<h3>晶莹亮采</h3>
+			<p>焕活和修复</p>
+			<input type="button" value="了解我们的产品系列">
+		</div>
+		<div class="bgi5 bgcommon">
+			<h3>亮颜修护</h3>
+			<p>抗皱</p>
+			<input type="button" value="了解我们的产品系列">
+		</div>
+		<div class="bgi6 bgcommon">
+			<h3>瑞士冰晶新生系列</h3>
+			<p>初期抗老</p>
+			<input type="button" value="了解我们的产品系列">
+		</div>
+    	<div class="huiyuan">
+			<div class="huiyuan-content">
+				<h1>尊享会员优惠</h1>
+				<p>输入您的电子邮件地址，订阅品牌资讯</p>
+				<span >电子邮件*</span>
+				<input type="text" name="" id="" class="email">
+				<input type="button" value="下一页">
+			</div>
+		</div>
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    </div>
+    <!-- 尾部组件 -->
+    <div class="footer">
+    <div class="payattention">
+        <div class="payattention-content">
+            <span>关注我们</span>
+            <a href=""><i class="iconfont icon-weibo"  ></i></a>
+            <a href=""> <i class="iconfont icon-weixin" ></i></a>
+        </div>
+
+    </div>
+    <div class="line"></div>
+    <div class="shuoming">
+        <div class="shuoming-content">
+            <a href="" style="left:0;"><span>联系我们</span></a>
+            <a href="" style="left:110px;"><span>配送 和 退货</span></a>
+            <a href="" style="left:244px;"><span>隐私、条款 和 网站说明</span></a>
+            <img src="imgs/index-imgs/brand-icon.png" alt="" class="brand-icon">
+        </div>
+        <p id="p1" style="top:0px;">© 2017 La Prairie - 保留所有权利 </p><br>
+        <p id="p2" style="top:20px;">ICP备案号：沪ICP备16012378号</p>
+    </div>
+</div>
+      
+
+
+
+   
+    
+<script src="js/lib/jquery-3.2.1.min (1).js"></script>
+<script src="js/header.js"></script>
+<script src="js/brandstory.js"></script>
+
+</body>
+</html>

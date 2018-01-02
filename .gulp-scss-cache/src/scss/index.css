@@ -1,0 +1,153 @@
+.container {
+  position: relative;
+  width: 100%;
+  top: 0px; }
+  .container html {
+    box-sizing: border-box; }
+  .container *,
+  .container *:after,
+  .container *:before {
+    box-sizing: inherit; }
+  .container html,
+  .container body {
+    height: 100%; }
+  .container body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    margin: 0; }
+  .container h1 {
+    margin: 0;
+    padding: 0; }
+  .container section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    min-height: 100%;
+    height: 100%; }
+    .container section img {
+      width: 100%;
+      height: 751px;
+      position: 50% 50%; }
+  .container .Quick-navigation {
+    position: fixed;
+    top: 726px;
+    left: 16px;
+    z-index: 1;
+    width: 230px;
+    height: 124px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .container .Quick-navigation-item {
+    font-size: 14px;
+    color: #000000;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    padding: 0.5em;
+    display: block; }
+  .container .Quick-navigation-item:hover,
+  .container .Quick-navigation-item.current {
+    color: #fff; }
+  .container .Scroll-progress-indicator {
+    will-change: opacity, transform;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    left: -10px;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+    padding: 2em;
+    -webkit-transform: translateX(200%) translateY(-50%);
+    transform: translateX(200%) translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.1); }
+  .container .Scroll-progress-indicator.visible {
+    -webkit-transform: translateX(-100%) translateY(-50%);
+    transform: translateX(-100%) translateY(-50%);
+    opacity: 1; }
+  .container .Scroll-to-top {
+    position: fixed;
+    display: block;
+    bottom: 68px;
+    right: 34px;
+    z-index: 10;
+    background-color: #c1c1c1;
+    opacity: 0.4;
+    border-radius: 50%;
+    height: 40px;
+    line-height: 40px;
+    width: 29px;
+    text-align: center;
+    border: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    outline: none; }
+    .container .Scroll-to-top:hover {
+      background-color: #969696; }
+    .container .Scroll-to-top .icon-less {
+      font-size: 24px;
+      color: #ffffff;
+      z-index: 11; }
+  .container .Scroll-to-top.visible {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  .container .Scroll-to-top:hover {
+    color: rgba(255, 255, 255, 0.9); }
+
+.slider {
+  width: 100%;
+  height: 621px;
+  background: #24272a; }
+  .slider h2 {
+    position: relative;
+    top: 106px;
+    left: 610px;
+    color: #b5b5b5;
+    font-size: 30px; }
+  .slider .swiper-container {
+    position: relative;
+    top: 110px;
+    width: 100%;
+    height: 426px; }
+    .slider .swiper-container .swiper-wrapper {
+      margin-left: -544px; }
+    .slider .swiper-container .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      border-radius: 100%;
+      background: #fff;
+      opacity: 1; }
+  .slider .swiper-slide {
+    width: 212px;
+    height: 349px;
+    text-align: center;
+    font-size: 18px;
+    background: #24272a;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+    .slider .swiper-slide img {
+      width: 212px;
+      height: 212px; }
+
+/*# sourceMappingURL=index.css.map */

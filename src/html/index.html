@@ -1,0 +1,116 @@
+{% extends './layout.html' %}
+{% block title %} index {% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+     <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+
+{% endblock  %}
+{% block content %}
+
+
+
+    <!-- 头部组件 -->
+    {% include "header.html" %}
+    <!-- 主体 -->
+    <div class="container">
+        <!-- <nav class="Quick-navigation">
+            <ul>
+                <li><a href="" class="Quick-navigation-item"><span class="yuandian"></span>以奢华的礼物纪念特别的节日</a></li>
+                <li><a href="" class="Quick-navigation-item"><span class="yuandian"></span>拾光传奇30年</a></li>
+                <li><a href="" class="Quick-navigation-item"><span class="yuandian"></span>鱼子精华充盈面霜</a></li>
+                <li><a href="" class="Quick-navigation-item"><span class="yuandian"></span>纯皙紧致滋润面霜</a></li>
+                <li><a href="" class="Quick-navigation-item"><span class="yuandian"></span>LA PRAIRIE 莱珀妮品牌精髓</a></li>
+        
+            </ul>  
+        </nav>
+                  
+        <img src="imgs/index-imgs/a.jpg" alt="" id="A"class="js-scroll-step">
+        <img src="imgs/index-imgs/b.jpg" alt="" id="B" class="js-scroll-step">
+        <img src="imgs/index-imgs/c.jpg" alt="" id="C" class="js-scroll-step">
+        <img src="imgs/index-imgs/d.jpg" alt="" id="D" class="js-scroll-step">
+        <img src="imgs/index-imgs/e.jpg" alt="" id="E"class="js-scroll-step">
+        
+        <button class="Scroll-to-top"><i class="iconfont icon-less"></i></button> -->
+        
+
+
+        <nav class="Quick-navigation">
+            <a href="#A" class="Quick-navigation-item">以奢华的礼物纪念特别的节日</a>
+            <a href="#B" class="Quick-navigation-item">拾光传奇30年</a>
+            <a href="#C" class="Quick-navigation-item">鱼子精华充盈面霜</a>
+            <a href="#D" class="Quick-navigation-item">纯皙紧致滋润面霜</a>
+          <a href="#E" class="Quick-navigation-item">LA PRAIRIE 莱珀妮品牌精髓</a>
+            <div class="Scroll-progress-indicator"></div>
+        </nav>
+        
+        <section id="A commonbg" class="js-scroll-step">
+        		<!--<div class="A commonbg"></div>-->
+            <img src="imgs/index-imgs/a.jpg" alt="" id="A">
+           
+        </section>
+        
+        <section id="B" class="js-scroll-step">
+       <!-- 	<div class="B commonbg"></div>-->
+          <img src="imgs/index-imgs/b.jpg" alt="" id="B" >
+            
+        </section>
+        
+        <section id="C commonbg" class="js-scroll-step">
+        <!--	<div class="C"></div>-->
+          <img src="imgs/index-imgs/c.jpg" alt="" id="C" >
+            
+        </section><!---->
+        
+        <section id="D commonbg" class="js-scroll-step">
+       <!-- 	<div class="D"></div>-->
+            <img src="imgs/index-imgs/d.jpg" alt="" id="D" >
+           
+        </section>
+        
+        <section id="E commonbg" class="js-scroll-step">
+        <!--	<div class="E"></div>-->
+           <img src="imgs/index-imgs/e.jpg" alt="" id="E">
+           
+        </section>
+        
+        <button class="Scroll-to-top"><i class="iconfont icon-less"></i></button>
+              
+    </div> 
+    
+    
+    
+    
+    
+    <!-- Swiper -->
+<div class="slider">
+    <h2>我们最受欢迎</h2>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="imgs/index-imgs/slider1.png" alt="" /></div>
+      <div class="swiper-slide"><img src="imgs/index-imgs/slider2.png" alt="" /></div>
+      <div class="swiper-slide"><img src="imgs/index-imgs/slider3.png" alt="" /></div>
+      <div class="swiper-slide"><img src="imgs/index-imgs/slider4.png" alt="" /></div>
+      <div class="swiper-slide"><img src="imgs/index-imgs/slider5.png" alt="" /></div>
+      <div class="swiper-slide"><img src="imgs/index-imgs/slider6.png" alt="" /></div>
+      <div class="swiper-slide"><img src="imgs/index-imgs/slider7.png" alt="" /></div>
+      <div class="swiper-slide"><img src="imgs/index-imgs/slider8.png" alt="" /></div>
+      <div class="swiper-slide"><img src="imgs/index-imgs/slider9.png" alt="" /></div>
+      <div class="swiper-slide"><img src="imgs/index-imgs/slider10.png" alt="" /></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+    <!-- 尾部组件 -->
+    {% include "footer.html" %}
+    
+<script src="js/lib/jquery-3.2.1.min (1).js"></script>
+<script src="js/header.js"></script>
+<script src="js/lib/swiper.min.js"></script>
+<script src="js/index.js"></script>
+{% endblock %}

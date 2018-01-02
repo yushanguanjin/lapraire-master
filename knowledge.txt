@@ -1,0 +1,2 @@
+1.项目的html使用swig开发，css使用scss开发，js使用es6开发，需要使用gulp来自动执行编译任务，配置对应的gulp插件
+2.

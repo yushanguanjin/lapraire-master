@@ -1,0 +1,482 @@
+@charset "UTF-8";
+.header {
+  width: 100%;
+  height: 1.5625rem;
+  background: #303335;
+  z-index: 0; }
+  .header .header-content {
+    position: relative;
+    top: .208333rem;
+    left: .208333rem;
+    width: 29.270833rem; }
+    .header .header-content .navigation-btn {
+      position: absolute;
+      width: 2.041667rem;
+      height: .354167rem;
+      top: .375rem;
+      left: .208333rem; }
+      .header .header-content .navigation-btn .hengxian {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: .583333rem;
+        height: .020833rem;
+        background: #b5b5b5; }
+        .header .header-content .navigation-btn .hengxian:nth-child(1) {
+          top: 0; }
+        .header .header-content .navigation-btn .hengxian:nth-child(2) {
+          top: .166667rem; }
+        .header .header-content .navigation-btn .hengxian:nth-child(3) {
+          top: .333333rem; }
+      .header .header-content .navigation-btn .navigation-menu {
+        position: absolute;
+        left: .958333rem;
+        top: 0;
+        width: 1.041667rem;
+        height: .25rem;
+        text-align: center;
+        line-height: .25rem; }
+        .header .header-content .navigation-btn .navigation-menu span {
+          display: inline-block;
+          font-size: .291667rem;
+          letter-spacing: .0625rem;
+          color: #b5b5b5;
+          font-family: Helvetica Neue LT W06_35 Thin,Helvetica Neue,Helvetica,Arial,sans-serif; }
+    .header .header-content .navigation-title {
+      position: absolute;
+      top: 0.125rem;
+      left: 13.395833rem;
+      width: 2.7rem;
+      height: .833333rem;
+      color: #ffffff; }
+      .header .header-content .navigation-title .laprairie {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: icomoon !important;
+        font-weight: 400;
+        font-size: .625rem;
+        letter-spacing: .002083rem; }
+      .header .header-content .navigation-title .SWITZERLAND {
+        position: absolute;
+        right: -.125rem;
+        bottom: -.083333rem;
+        font-size: xx-small;
+        color: #ffffff;
+        letter-spacing: .041667rem;
+        transform: scale(0.65); }
+    .header .header-content .navigation-logo {
+      position: absolute;
+      top: 0rem;
+      right: -0.7rem;
+      width: 240px;
+      height: 55px;
+      padding-right: .208333rem;
+      color: #FFFFFF;
+      text-align: center;
+      line-height: 55px; }
+      .header .header-content .navigation-logo a i {
+        font-size: 36px;
+        padding-right: .333333rem;
+        color: #b5b5b5;
+        transition: color .3s ease;
+        z-index: 10; }
+        .header .header-content .navigation-logo a i:hover {
+          color: #ffffff; }
+  .header .zixun {
+    display: none;
+    position: absolute;
+    top: 1.1875rem;
+    right: 2.333333rem;
+    width: 3.875rem;
+    height: 3.645833rem;
+    background: #ffffff;
+    z-index: 1;
+    color: #2f3335; }
+    .header .zixun span {
+      display: block;
+      font-size: .25rem; }
+    .header .zixun .kefudianhua {
+      position: absolute;
+      top: .5625rem;
+      left: .583333rem; }
+    .header .zixun .fuwushijian {
+      position: absolute;
+      top: 1.0625rem;
+      left: .4375rem; }
+    .header .zixun .nojiejiari {
+      position: absolute;
+      top: 1.583333rem;
+      left: 1.520833rem; }
+    .header .zixun input {
+      position: absolute;
+      top: 2.395833rem;
+      left: .4375rem;
+      width: 2.958333rem;
+      height: .729167rem;
+      border: 1px solid #d5d5d5;
+      text-align: center;
+      color: #00032e;
+      outline: none; }
+      .header .zixun input:hover {
+        background: #4e5153;
+        color: #ffffff; }
+
+.search {
+  display: none;
+  position: fixed;
+  top: calc(50% - 5.479167rem);
+  left: calc(50% - 6.145833rem);
+  width: 12.291667rem;
+  height: 10.958333rem;
+  background: #303235;
+  z-index: 1; }
+  .search .search-form {
+    position: absolute;
+    margin: 0  .625rem; }
+    .search .search-form .fa-search {
+      position: absolute;
+      font-size: 32px;
+      top: 1.416667rem;
+      left: 0;
+      color: #b5b5b5;
+      z-index: 2; }
+    .search .search-form input {
+      position: absolute;
+      top: 1.5rem;
+      left: .9rem;
+      background-color: transparent;
+      FILTER: alpha(opacity=0);
+      border: 0;
+      outline: 0;
+      letter-spacing: .041667rem;
+      font-size: .458333rem; }
+      .search .search-form input::placeholder {
+        font-size: .458333rem;
+        color: #b5b5b5; }
+    .search .search-form .icon-close {
+      display: inline-block;
+      position: absolute;
+      top: .645833rem;
+      left: 10.458333rem;
+      font-size: 32px;
+      color: #b5b5b5;
+      z-index: 2;
+      transition: all .5s ease-in;
+      transform-origin: center center; }
+      .search .search-form .icon-close:hover {
+        transform: rotate(90deg);
+        position: absolute; }
+    .search .search-form .baixian {
+      position: absolute;
+      top: 2.25rem;
+      left: 0;
+      width: 11.041667rem;
+      height: .041667rem;
+      background: #ffffff; }
+  .search .quicklianjie {
+    position: absolute;
+    top: 3.3125rem;
+    left: .625rem;
+    color: #b5b5b5;
+    font-size: .333333rem;
+    letter-spacing: .083333rem; }
+  .search .productxilie {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 12.291667rem;
+    height: .791667rem;
+    top: 3.958333rem;
+    color: #ffffff;
+    vertical-align: center; }
+    .search .productxilie a {
+      position: absolute;
+      font-size: .416667rem;
+      left: .625rem;
+      z-index: 1;
+      color: #ffffff;
+      transition: color .3s ease; }
+    .search .productxilie:hover {
+      background: #ffffff;
+      z-index: 0; }
+      .search .productxilie:hover a {
+        color: #303335; }
+  .search .hufu {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 12.291667rem;
+    height: .791667rem;
+    top: 4.729167rem; }
+    .search .hufu a {
+      position: absolute;
+      font-size: .416667rem;
+      color: #ffffff;
+      left: .625rem;
+      z-index: 1;
+      color: #ffffff;
+      transition: color .3s ease; }
+    .search .hufu:hover {
+      background: #ffffff;
+      z-index: 0; }
+      .search .hufu:hover a {
+        color: #303335; }
+
+.myaccount {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -8.291667rem;
+  width: 8.291667rem;
+  height: 7.145833rem;
+  background: #303335;
+  z-index: 4; }
+  .myaccount .icon-close {
+    position: absolute;
+    top: .3125rem;
+    right: .375rem;
+    color: #b5b5b5;
+    cursor: pointer;
+    font-size: 32px;
+    transition: transform .5s ease;
+    transform-origin: 50% 50%; }
+    .myaccount .icon-close:hover {
+      transform: rotate(90deg); }
+  .myaccount .title {
+    position: absolute;
+    top: 2.1875rem;
+    color: #ffffff;
+    font-size: .416667rem;
+    letter-spacing: 2px; }
+  .myaccount .content {
+    position: absolute;
+    left: .5625rem;
+    top: 3.25rem;
+    font-size: .354167rem;
+    color: #ffffff;
+    line-height: .5rem; }
+    .myaccount .content p {
+      text-indent: 1.833333rem;
+      margin-top: 0; }
+  .myaccount a {
+    position: absolute;
+    top: 5.208333rem;
+    width: 2.979167rem;
+    height: .854167rem;
+    text-align: center;
+    line-height: .854167rem;
+    font-size: .375rem;
+    color: #ffffff;
+    background: transparent;
+    border: .020833rem solid #ffffff; }
+  .myaccount .signin {
+    left: 1.104167rem;
+    transition: background .3s ease; }
+    .myaccount .signin:hover {
+      background: #ffffff;
+      color: #303335; }
+  .myaccount .signup {
+    right: 1.104167rem;
+    transition: background .3s ease; }
+    .myaccount .signup:hover {
+      background: #ffffff;
+      color: #303335; }
+
+/* 以下实际使用若已初始化可删除 .nav height父级需逐级设置为100%*/
+body, html {
+  height: 100%;
+  background: #E2E2E2; }
+
+body, ul {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 14px "微软雅黑","宋体","Arial Narrow",HELVETICA;
+  -webkit-text-size-adjust: 100%; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+/* 以上实际使用若已初始化可删除 */
+/* nav */
+.nav {
+  position: fixed;
+  top: 0;
+  left: -8.645833rem;
+  background: #303335;
+  width: 410px;
+  height: 2000px;
+  z-index: 2;
+  transition: all .3s; }
+  .nav ul .info {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 94px;
+    left: 0;
+    width: 8.645833rem;
+    color: #ffffff; }
+    .nav ul .info .fa-map-marker {
+      position: absolute;
+      top: -30px;
+      font-size: 50px; }
+    .nav ul .info ul {
+      display: block;
+      position: absolute;
+      margin: 0 auto;
+      width: 8.645833rem;
+      color: #ffffff; }
+      .nav ul .info ul li {
+        position: absolute;
+        top: 0;
+        left: 127px;
+        margin: 33px auto;
+        text-align: center; }
+        .nav ul .info ul li a {
+          font-size: 20px; }
+    .nav ul .info .line {
+      position: absolute;
+      top: 5.520833rem;
+      width: 4.583333rem;
+      height: .020833rem;
+      background: #4e5152; }
+    .nav ul .info .xuanze {
+      position: absolute;
+      top: 6.25rem;
+      font-size: 20px; }
+
+.nav a {
+  display: block;
+  overflow: hidden;
+  line-height: 46px;
+  max-height: 46px;
+  color: #ABB1B7;
+  transition: all .3s; }
+
+.nav-top {
+  height: 97px; }
+  .nav-top .icon-close {
+    position: absolute;
+    margin: 0;
+    top: 28px;
+    right: 42px;
+    color: #b5b5b5;
+    font-size: 28px;
+    transition: color .3s; }
+    .nav-top .icon-close:hover {
+      color: #ffffff; }
+
+.nav a span {
+  margin-left: 30px; }
+
+.nav-item {
+  position: relative;
+  background: #303335;
+  color: #ffffff;
+  border-bottom: 1px solid #4e5152; }
+  .nav-item a span {
+    color: #ffffff;
+    font-size: 20px; }
+  .nav-item ul li span {
+    position: relative;
+    left: 24px; }
+
+.nav-item.nav-show {
+  border-bottom: none; }
+
+.nav-item ul {
+  display: none;
+  background: rgba(0, 0, 0, 0.1); }
+
+.nav-item.nav-show ul {
+  display: block; }
+
+.nav-item > a:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  width: 2px;
+  height: 46px;
+  opacity: 0;
+  transition: all .3s; }
+
+.nav .nav-icon {
+  font-size: 20px;
+  position: absolute;
+  margin-left: -1px; }
+
+/* 此处修改导航图标 可自定义iconfont 替换*/
+.icon_1::after {
+  content: "\e62b"; }
+
+.icon_2::after {
+  content: "\e669"; }
+
+.icon_3::after {
+  content: "\e61d"; }
+
+/*---------------------*/
+.nav-more {
+  float: right;
+  margin-right: 20px;
+  font-size: 32px;
+  transition: transform .3s; }
+
+/* 此处为导航右侧箭头 如果自定义iconfont 也需要替换*/
+.nav-more::after {
+  content: "\e621"; }
+
+/*---------------------*/
+.nav-show .nav-more {
+  transform: rotate(90deg); }
+
+.nav-show, .nav-item > a:hover {
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.1); }
+
+.nav-show > a:before, .nav-item > a:hover:before {
+  opacity: 1; }
+
+.nav-item li:hover a {
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.1); }
+
+/* nav-mini */
+.nav-mini.nav {
+  width: 60px; }
+
+.nav-mini.nav .nav-item > a span {
+  display: none; }
+
+.nav-mini.nav .nav-more {
+  margin-right: -20px; }
+
+.nav-mini.nav .nav-item ul {
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  width: 180px;
+  z-index: 99;
+  background: #3C474C;
+  overflow: hidden; }
+
+.nav-mini.nav .nav-item:hover {
+  background: rgba(255, 255, 255, 0.1); }
+
+.nav-mini.nav .nav-item:hover .nav-item a {
+  color: #FFF; }
+
+.nav-mini.nav .nav-item:hover a:before {
+  opacity: 1; }
+
+.nav-mini.nav .nav-item:hover ul {
+  display: block; }
+
+/*# sourceMappingURL=header.css.map */
