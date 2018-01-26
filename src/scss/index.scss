@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     top:0px;
+    background: #000000;
     // img{
     //     width: 100%;
     //     height: 100%;
@@ -68,10 +69,13 @@
       html,
       body {
         height: 100%;
+        
+        
       }
       body {
         font-family: "Roboto", Helvetica, Arial, sans-serif;
         margin: 0;
+        
       }
       h1 {
         margin: 0;
@@ -93,8 +97,8 @@
         height: 100%;
         img{
             width: 100%;
-            height: 751px;
-            position: 50% 50%;
+            height: 752px;
+            
         }
         
 
@@ -153,7 +157,7 @@
         border-radius: 50%;
         height: 40px;
         line-height: 40px;
-        width: 29px;
+        width: 40px;
         text-align: center;
         border: 0;
         -webkit-transform: translateY(100%);
@@ -268,4 +272,82 @@
         height: 212px;
     }
   }
+}
+
+
+.slider-content{
+      position: absolute;
+      width: 300px;
+      height: 200px;
+      top:276px;
+      right:175px;
+      text-align: center;
+      color: #ffffff;
+      .p1{
+          position: absolute;
+          font-size: 35px;
+          top:0;
+          left:40px;
+      }
+      .p2{
+        position: absolute;
+          font-size: 35px;
+          top:46px;
+          left:0px;
+      }
+      .line{
+        position: absolute;
+        width: 64px;
+        height: 2px;
+        background:#b5b5b5;
+          top:99px;
+          left:120px;
+      }
+      .p3{
+        position: absolute;
+        top:117px;
+        left:63px;
+        font-size: 16px;
+      }
+      #btn{
+        display: block;
+        position: absolute;
+        width: 220px;
+        height: 40px;
+        border: 1px solid #ffffff;
+        outline: none;
+        bottom:0px;
+        left:40px;
+        text-align: center;
+        line-height: 40px;
+        color:#ffffff;
+        background: transparent;
+        transition: all 0.3s ease-in-out;
+        font-size: 16px;
+        &:hover{
+          background: #ffffff;
+          color: #000000;
+        }
+      }
+}
+
+.slider-contentB{
+  position: absolute;
+  top:1050px;
+
+}
+.slider-contentC{
+  position: absolute;
+  top:1780px;
+
+}
+.slider-contentD{
+  position: absolute;
+  top:2650px;
+
+}
+.slider-contentE{
+  position: absolute;
+  top:3280px;
+
 }

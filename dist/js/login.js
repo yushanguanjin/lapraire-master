@@ -47,10 +47,10 @@ $(function() {
     })
     $(".dt3 a").click(function() {
         if (oClick) {
-            $(".dt3 ").css("background","#26272a");
-            $(".dd23").css("background","#26272a");
+            $(".dt3").css("background","#26272a");
+            $(".dd3").css("background","#26272a");
         }  else {
-            $(".dt3 ").css("background","#2f3335");
+            $(".dt3").css("background","#2f3335");
             $(".dd3 ").css("background","#2f3335");
         }
         oClick = !oClick;
@@ -114,11 +114,31 @@ $(function() {
 
 
 
+        $(".dd1,.dt1").css(
+            {
+            "display":"block",
+            "background":"#26272a"
+        
+    
+            });
 
 
 
 
 
+
+            function onblurs(){ 
+               if($(".dd1-li2 input").value="") {
+                   alert(0);
+               }
+            } 
+
+
+            $(".input-common").click(function() {
+                $(".span-common").css({
+                    "transform":"translateY(-30px)",
+                    "font-size":"12px"
+                })})
 
 
 

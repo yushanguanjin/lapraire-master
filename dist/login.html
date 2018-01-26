@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/iconfont.css">
 
 
@@ -271,19 +270,21 @@
                     </li>
                 </ul>
         </li>
-        <div class="info">
-                <i class=" fa fa-map-marker"  aria-hidden="true"></i>
-                <ul class="zixuninfo">
-                    <li>
-                        <a href="">查找附近店铺</a><br>
-                        <a href="">了解最新品牌资讯</a><br>
-                        <a href="">追踪订单</a><br>
-                        <a href="">联系我们</a>
-                    </li>
-                </ul>
-                <div class="line"></div>
-                <span class="xuanze"><a href="">Select Your Country</a></span> 
-        </div> 
+        <li class="nav-item">
+            <div class="info">
+                    <i class=" fa fa-map-marker"  aria-hidden="true"></i>
+                    <ul class="zixuninfo">
+                        <li>
+                            <a href="">查找附近店铺</a><br>
+                            <a href="">了解最新品牌资讯</a><br>
+                            <a href="">追踪订单</a><br>
+                            <a href="">联系我们</a>
+                        </li>
+                    </ul>
+                    <div class="line"></div>
+                    <span class="xuanze"><a href="">Select Your Country</a></span> 
+            </div> 
+        </li>
     </ul>
 </div>
 
@@ -310,7 +311,7 @@
                                 </li>
                                 <li class="dd1-li2">
                                     <a href="#" style="top:0px;">手机号/电子邮箱*</a>
-                                    <input type="text" name="" id="">
+                                    <input type="text" name=""  id=""  onblur="onblus()">
                                 </li>
                                 <li class="dd1-li2">
                                         <div class="line"></div>
@@ -354,36 +355,36 @@
                                 <option value="MR">先生
                                 </option>
                             </select>
-                            <span class="name">姓名*</span>
-                            <input type="text" name="" id="" class="text-name" >
-                            <span class="shoujihao">手机号*</span>
-                            <input type="text" name="" id="" class="text-shoujihao">
-                            <span class="yanzhengma">短信验证码*</span>
-                            <input type="text" name="" id="" class="text-yanzhengma">
+                            <span class="name" class="span-common">姓名*</span>
+                            <input type="text" name="" id="" class="text-name input-common"  >
+                            <span class="shoujihao" class="span-common">手机号*</span>
+                            <input type="text" name="" id="" class="text-shoujihao input-common">
+                            <span class="yanzhengma" class="span-common">短信验证码*</span>
+                            <input type="text" name="" id="" class="text-yanzhengma input-common">
                             <input type="button" value="获取验证码" class="getyanzhengma" />
-                            <span class="email">电子邮件*</span>
-                            <input type="text" name="" id="" class="text-email" >  
+                            <span class="email" class="span-common ">电子邮件*</span>
+                            <input type="text" name="" id="" class="text-email input-common" >  
                             <span class="dianjilianjie">注册以后请点击欢迎邮件的验证链接，以获得更多品牌资讯。</span>
-                            <span class="confirmemail common-text">确认电子邮件*</span>
-                            <input type="text" name="" id="" class="text-confirmemail">  
-                            <span class="loginmima common-text">登录密码*8-25个字符</span>
-                            <input type="text" name="" id="" class="text-loginmima" > 
-                            <span class="confirmmima common-text">确认新密码*8-25个字符</span>
-                            <input type="text" name="" id="" class="text-confirmmima" > 
+                            <span class="confirmemail common-text" class="span-common">确认电子邮件*</span>
+                            <input type="text" name="" id="" class="text-confirmemail input-common">  
+                            <span class="loginmima common-text" class="span-common">登录密码*8-25个字符</span>
+                            <input type="text" name="" id="" class="text-loginmima input-common" > 
+                            <span class="confirmmima common-text" class="span-common">确认新密码*8-25个字符</span>
+                            <input type="text" name="" id="" class="text-confirmmima input-common" > 
                              <span class="years"> 年</span><select name="" id="years" class="times"></select>
                              <span class="months"> 月</span><select name="" id="months" class="times">
-                                    <option  label="一月" value="1">一月</option>
-                                    <option  label="二月" value="2">二月</option>
-                                    <option  label="三月" value="3">三月</option>
-                                    <option  label="四月" value="4">四月</option>
-                                    <option  label="五月" value="5">五月</option>
-                                    <option  label="六月" value="6">六月</option>
-                                    <option  label="七月" value="7">七月</option>
-                                    <option  label="八月" value="8">八月</option>
-                                    <option  label="九月" value="9">九月</option>
-                                    <option  label="十月" value="10">十月</option>
-                                    <option  label="十一月" value="11">十一月</option>
-                                    <option  label="十二月" value="12">十二月</option>
+                                    <option  label="一" value="1">一</option>
+                                    <option  label="二" value="2">二</option>
+                                    <option  label="三" value="3">三</option>
+                                    <option  label="四" value="4">四</option>
+                                    <option  label="五" value="5">五</option>
+                                    <option  label="六" value="6">六</option>
+                                    <option  label="七" value="7">七</option>
+                                    <option  label="八" value="8">八</option>
+                                    <option  label="九" value="9">九</option>
+                                    <option  label="十" value="10">十</option>
+                                    <option  label="十一" value="11">十一</option>
+                                    <option  label="十二" value="12">十二</option>
                              </select>
                              <span class="dates"> 日</span><select name="" id="dates" class="times">
                                     <option  label="01" value="1">01</option>
@@ -435,9 +436,12 @@
                             <a href=""><input type="button" value="继续" class="jixu" /></a>  
                         </dd>
                         <dt class="dt4">
-                               	<h2>有什么可以帮您？</h2>	              
-	                				<i class="iconfont icon-phone" ></i>  <span id="span1"><a href="">致电 联系我们 400-853-1616</a></span>
-	                				<i class="iconfont icon-youjian" ></i> <span id="span2"><a href="">向我们发送留言或</a></span>
+                                   <h2><span>有什么可以帮您?</span></h2>
+                                   
+                                        <i class="iconfont icon-phone" ></i>  <span id="span1"><a href="">致电 联系我们 400-853-1616</a></span>
+                                        <i class="iconfont icon-youjian" ></i> <span id="span2"><a href="">向我们发送留言或</a></span>
+                                                
+	                				
 	                    		
                     
                         </dt>
@@ -463,8 +467,8 @@
 											<a href="" style="left:244px;"><span>隐私、条款 和 网站说明</span></a>
 											<img src="imgs/index-imgs/brand-icon.png" alt="" class="brand-icon">
 										</div>
-										<p id="p1"style="top:30px;">© 2017 La Prairie - 保留所有权利 </p><br>
-										<p id="p2"style="top:50px;">ICP备案号：沪ICP备16012378号</p>
+										<p id="p1"style="top:0px;">© 2017 La Prairie - 保留所有权利 </p><br>
+										<p id="p2"style="top:20px;">ICP备案号：沪ICP备16012378号</p>
 									</div>
 							</div>                                                        
                         </dt>

@@ -1,0 +1,133 @@
+html,body{
+    font-family: M Ying Hei PRC W48 W3,Helvetica Neue LT W02_35 Thin,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.shop{
+    position: relative;
+    width: 100%;
+    height: 467px;
+    background-color: #252629;
+    text-align: center;
+    .shop-cart{
+    position: absolute;
+    top:52px;
+    left:calc(50% - 50px);
+    font-size: 32px;
+    color: #b5b5b5;
+    letter-spacing: 2px;
+    }
+    .freeusing{
+    position: absolute;
+    top:140px;
+    left:calc(50% - 113px);
+    font-size: 20px;
+    color: #ffffff;
+    
+    }
+    a{
+
+        input{
+            position: absolute;
+            top:191px;
+            left:calc(50% - 110px);
+            width: 220px;
+            height: 40px;
+            font-size: 16px;
+            line-height: 16px;
+            background: #6a6d6e;
+            background: linear-gradient(135deg,#6a6d6e,#4e5153);
+            border: 0;
+            border-radius: 3px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="$mid-grey",endColorstr="$trout",GradientType=1);
+            outline: none;
+            min-width: 220px;
+            text-align: center;
+            transition: background .3s ease;
+            &:hover{
+                background: linear-gradient(135deg,#4e5153,#6a6d6e);
+            }
+        }
+    }
+}
+.assign{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    text-align: center;
+    background-image: url(../imgs/shop-imgs/background.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    .help{
+        position: absolute;
+        top:106px;
+        left:calc(50% - 129px);
+        font-size: 32px;
+        color: #ffffff;
+        letter-spacing: 2px;
+    }
+    .icon-phone{
+        position: absolute;
+        top:166px;
+        font-size: 24px;
+        left:559px;
+        color: #acacac;
+    }
+    #span1{
+        position: absolute;
+        top:170px;
+        font-size: 20px;
+        left:610px;
+        color: #acacac;
+    }
+    .icon-youjian{
+        position: absolute;
+        top:209px;
+        font-size: 24px;
+        left:560px;
+        color: #acacac;
+    }
+    #span2{
+    position: absolute;
+    top:205px;
+    font-size: 20px;
+    left:610px;
+    color: #acacac;
+    a{
+        color: #acacac;
+        transition: color .3s ease-in-out;
+        &:hover{
+            color: #ffffff;
+        }
+    }
+    }
+}
+.fukuan{
+    position: relative;
+    width: 100%;
+    height: 142px;
+    background: #ffffff;
+    #span1{
+        position: absolute;
+        top:30px;
+        left:calc(50% - 60px);
+        font-size: 16px;
+        color: #242729;
+        letter-spacing: 3px;
+    }
+    #img1,#img2,#img3{
+        position: absolute;
+        top:70px;
+    }
+    #img1{
+        left:507px;
+    }
+    #img2{
+        left:635px;
+    }
+    #img3{
+        left:800px;
+    }
+}

@@ -1,0 +1,42 @@
+{% extends './layout.html' %}
+{% block title %} index {% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+     <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+
+{% endblock  %}
+{% block content %}
+
+
+
+    <!-- 头部 -->
+    {% include "header.html" %}
+    <!-- 主体 -->
+    <div class="shop">
+        <span class="shop-cart">购物篮</span>
+        <span class="freeusing">您可选择两件免费试用装</span>
+        <a href="">
+            <input type="button" value="继续购物">
+        </a>
+    </div>
+    <div class="assign">
+        <span class="help">有什么可以帮您？</span>
+        <i class="iconfont icon-phone" ></i>  <span id="span1">致电 联系我们 400-853-1616</span>
+        <i class="iconfont icon-youjian" ></i> <span id="span2"><a href="">向我们发送留言或</a></span>
+    </div>
+    <div class="fukuan">
+        <span id="span1">接受的付款类型</span>
+        <img src="imgs/shop-imgs/alipay.png" alt="" id="img1">
+        <img src="imgs/shop-imgs/unionpayfull.png" alt="" id="img2">
+        <img src="imgs/shop-imgs/wepay.png" alt="" id="img3">
+    </div>
+    
+    <script src="js/lib/jquery-3.2.1.min (1).js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/lib/swiper.min.js"></script>
+    {% endblock %}

@@ -111,6 +111,7 @@
     background: url(../imgs/brandstory-imgs/background6.jpg);
     background-position: 50% 40%; }
   .main .huiyuan {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,24 +119,55 @@
     height: 312px;
     background: #303235; }
     .main .huiyuan .huiyuan-content {
+      position: absolute;
       display: flex;
       justify-content: center;
       width: 518px;
       height: 178px; }
-      .main .huiyuan .huiyuan-content h1 {
-        position: relative;
+      .main .huiyuan .huiyuan-content .p1 {
+        position: absolute;
         top: 0;
+        left: 191px;
         font-size: 24px;
         color: #ffffff; }
-      .main .huiyuan .huiyuan-content p {
+      .main .huiyuan .huiyuan-content .p2 {
         position: absolute;
-        top: 46px; }
+        top: 46px;
+        color: #b5b4a9;
+        font-size: 16px; }
       .main .huiyuan .huiyuan-content span {
-        justify-content: flex-start; }
-      .main .huiyuan .huiyuan-content input:text {
+        justify-content: flex-start;
+        position: absolute;
+        top: 110px;
+        font-size: 20px;
+        left: 10px;
+        color: #b5b4a9; }
+      .main .huiyuan .huiyuan-content .email {
         position: relative;
+        top: 118px;
+        left: 0;
         width: 340px;
+        height: 30px;
         border: 0;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid #4e5152;
         outline: 0;
         background: transparent; }
+      .main .huiyuan .huiyuan-content input[type="button"] {
+        position: relative;
+        top: 99px;
+        right: -16px;
+        width: 156px;
+        height: 44px;
+        background: #65696a;
+        color: #ffffff;
+        border: none;
+        outline: none; }
+      .main .huiyuan .huiyuan-content input[type="checkbox"] {
+        position: absolute;
+        top: 161px;
+        left: 13px; }
+      .main .huiyuan .huiyuan-content .p3 {
+        position: absolute;
+        top: 159px;
+        right: 57px;
+        font-size: 16px; }

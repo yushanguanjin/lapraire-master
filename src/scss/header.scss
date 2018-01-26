@@ -108,6 +108,11 @@
                 &:hover{
                     color:#ffffff;
                 }
+                }
+                .icon-search{
+                    position: relative;
+                    top:2px;
+                }
                 
             }
         }
@@ -159,10 +164,11 @@
                 background: #4e5153;
                 color:#ffffff;
             }
+        
         }
-    }
+   
+ }
 
-}
 //搜索
 .search{
     display: none;
@@ -295,7 +301,7 @@
     width: 8.291667rem;
     height: 7.145833rem;
     background: #303335;
-    z-index: 4;
+    z-index: 10;
     .icon-close{
         position: absolute;
         top: .3125rem;
@@ -591,7 +597,7 @@ body, html {
   .nav {
     position: fixed;
     top: 0;
-    left: -8.645833rem;
+    left: -10rem;
     background: #303335;
     width: 410px;
     height: 2000px;
@@ -662,7 +668,7 @@ body, html {
         position: absolute;
         margin: 0;
         top:28px;
-        right:42px;
+        right:16px;
         color:#b5b5b5;
         font-size: 28px;
         transition: color .3s;

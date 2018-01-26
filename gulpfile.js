@@ -21,12 +21,20 @@
         gulp.src("src/scss/**/*.scss")
             .pipe(scss())
             .pipe(gulp.dest("dist/css"));
+
+        gulp.src("src/scss/productline-scss/*.scss")
+        .pipe(scss())
+        .pipe(gulp.dest("dist/css/productline-css"));
     });
 
     gulp.task('swig', function() {
         gulp.src('src/html/**/*.html')
           .pipe(swig({defaults: { cache: false }}))
           .pipe(gulp.dest('./dist/'))
+
+          gulp.src('src/html/productline-html/*.html')
+          .pipe(swig({defaults: { cache: false }}))
+          .pipe(gulp.dest('./dist/productline-html'))
     });
 
     gulp.task('dev',['babel','scss','swig']);

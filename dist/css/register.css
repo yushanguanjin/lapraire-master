@@ -1,0 +1,411 @@
+html, body {
+  background: #2f3335; }
+
+.main {
+  position: relative; }
+  .main .login {
+    position: relative;
+    width: 100%;
+    height: 133px;
+    background: #252629;
+    text-align: center;
+    line-height: 133px;
+    color: #ffffff; }
+    .main .login span {
+      font-size: 50px; }
+  .main .login-content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background: #2f3335; }
+    .main .login-content dl {
+      position: absolute;
+      top: 86px;
+      width: 655px; }
+      .main .login-content dl dt {
+        height: 77px;
+        line-height: 77px; }
+        .main .login-content dl dt .line {
+          width: 655px;
+          height: 1px;
+          background: #4e5153; }
+        .main .login-content dl dt a {
+          position: relative;
+          left: 21px;
+          font-size: 23px; }
+      .main .login-content dl dd {
+        position: relative;
+        top: 0;
+        left: 0;
+        -webkit-margin-start: 0; }
+      .main .login-content dl .dd1 {
+        width: 655px;
+        height: 406px; }
+        .main .login-content dl .dd1 ul li a {
+          position: relative;
+          top: 10px;
+          letter-spacing: 2px;
+          color: #969696;
+          font-size: 16px; }
+        .main .login-content dl .dd1 ul li #siginin {
+          position: absolute;
+          top: 330px;
+          left: 208px;
+          background: #626566;
+          color: #ffffff;
+          width: 245px;
+          height: 40px;
+          border: none;
+          outline: none;
+          font-size: 18px; }
+          .main .login-content dl .dd1 ul li #siginin:hover {
+            background: #56595b; }
+        .main .login-content dl .dd1 ul .dd1-li1 {
+          position: relative;
+          left: 166px;
+          font-size: 13px;
+          color: #8a8a8a; }
+          .main .login-content dl .dd1 ul .dd1-li1 .line {
+            position: relative;
+            left: -145px;
+            top: 45px;
+            width: 610px;
+            height: 1px;
+            background: #4e5152; }
+        .main .login-content dl .dd1 ul .dd1-li2 {
+          position: relative;
+          color: #8a8a8a;
+          top: 45px;
+          left: 21px;
+          height: 63px;
+          line-height: 63px; }
+          .main .login-content dl .dd1 ul .dd1-li2 a {
+            font-size: 21px; }
+          .main .login-content dl .dd1 ul .dd1-li2 input {
+            position: relative;
+            left: 0px;
+            top: -52px;
+            width: 610px;
+            height: 24px;
+            background: transparent;
+            border: none;
+            outline: none; }
+          .main .login-content dl .dd1 ul .dd1-li2 .line {
+            position: relative;
+            left: 0px;
+            top: 0px;
+            width: 610px;
+            height: 1px;
+            background: #4e5152; }
+        .main .login-content dl .dd1 ul .dd1-li3 {
+          position: relative;
+          left: 21px;
+          width: 610px;
+          color: #8a8a8a; }
+          .main .login-content dl .dd1 ul .dd1-li3 a {
+            font-size: 21px; }
+          .main .login-content dl .dd1 ul .dd1-li3 input {
+            position: relative;
+            left: 0px;
+            top: 0px;
+            width: 610px;
+            height: 24px;
+            background: transparent;
+            border: none;
+            outline: none; }
+        .main .login-content dl .dd1 ul div #remember {
+          display: block;
+          position: relative;
+          top: 50px;
+          left: 18px;
+          transform: scale(1.5); }
+        .main .login-content dl .dd1 ul div .span1 {
+          font-size: 21px;
+          position: absolute;
+          top: 245px;
+          left: 50px;
+          color: #ffffff; }
+        .main .login-content dl .dd1 ul div .span2 {
+          font-size: 18px;
+          position: absolute;
+          top: 245px;
+          left: 550px;
+          color: #ffffff; }
+      .main .login-content dl .dd2 {
+        position: relative;
+        width: 655px;
+        height: 1134px; }
+        .main .login-content dl .dd2 span {
+          font-size: 19px;
+          color: #ffffff;
+          position: absolute;
+          top: 3px;
+          left: 41px; }
+        .main .login-content dl .dd2 .line {
+          position: absolute;
+          left: 20px;
+          width: 610px;
+          height: 1px;
+          background: #4e5152; }
+        .main .login-content dl .dd2 .line1 {
+          top: 112px; }
+        .main .login-content dl .dd2 .line2 {
+          top: 176px; }
+        .main .login-content dl .dd2 .line3 {
+          top: 248px; }
+        .main .login-content dl .dd2 .line4 {
+          top: 344px; }
+        .main .login-content dl .dd2 .line5 {
+          top: 415px; }
+        .main .login-content dl .dd2 .line6 {
+          top: 492px; }
+        .main .login-content dl .dd2 .line7 {
+          top: 492px; }
+        .main .login-content dl .dd2 .line8 {
+          top: 588px; }
+        .main .login-content dl .dd2 .line9 {
+          top: 638px; }
+        .main .login-content dl .dd2 .line10 {
+          top: 708px; }
+        .main .login-content dl .dd2 .line11 {
+          top: 778px; }
+        .main .login-content dl .dd2 .dropdown {
+          position: absolute;
+          width: 611px;
+          height: 83px;
+          left: 21px;
+          top: 112px;
+          font-size: 22px;
+          background: transparent;
+          color: #ffffff;
+          overflow: hidden;
+          outline: none;
+          border: none; }
+        .main .login-content dl .dd2 .name {
+          position: absolute;
+          font-size: 22px;
+          left: 29px;
+          top: 202px;
+          color: #7d7d7e; }
+        .main .login-content dl .dd2 .shoujihao {
+          position: absolute;
+          font-size: 22px;
+          left: 29px;
+          top: 270px;
+          color: #7d7d7e; }
+        .main .login-content dl .dd2 .yanzhengma {
+          position: absolute;
+          font-size: 22px;
+          left: 29px;
+          top: 370px;
+          color: #7d7d7e; }
+        .main .login-content dl .dd2 input {
+          position: absolute;
+          left: 29px;
+          color: #7d7d7e;
+          width: 610px;
+          height: 40px;
+          background: transparent;
+          border: none;
+          outline: none; }
+        .main .login-content dl .dd2 .text-name {
+          top: 206px; }
+        .main .login-content dl .dd2 .text-shoujihao {
+          top: 303px; }
+        .main .login-content dl .dd2 .text-yanzhengma {
+          top: 370px; }
+        .main .login-content dl .dd2 .getyanzhengma {
+          position: absolute;
+          top: 436px;
+          left: 208px;
+          background: #626566;
+          color: #ffffff;
+          width: 245px;
+          height: 40px;
+          border: none;
+          outline: none;
+          font-size: 18px; }
+          .main .login-content dl .dd2 .getyanzhengma:hover {
+            background: #56595b; }
+        .main .login-content dl .dd2 .email {
+          position: absolute;
+          font-size: 20px;
+          left: 29px;
+          top: 515px;
+          color: #7d7d7e; }
+        .main .login-content dl .dd2 .text-email {
+          position: absolute;
+          left: 29px;
+          top: 510px;
+          color: #7d7d7e; }
+        .main .login-content dl .dd2 .dianjilianjie {
+          position: absolute;
+          font-size: 20px;
+          left: 29px;
+          top: 563px;
+          color: #ffffff; }
+        .main .login-content dl .dd2 .common-text {
+          position: absolute;
+          font-size: 20px;
+          left: 29px;
+          color: #7d7d7e; }
+        .main .login-content dl .dd2 .confirmemail {
+          top: 603px; }
+        .main .login-content dl .dd2 .text-confirmemail {
+          top: 596px; }
+        .main .login-content dl .dd2 .loginmima {
+          top: 661px; }
+        .main .login-content dl .dd2 .text-loginmima {
+          top: 665px; }
+        .main .login-content dl .dd2 .confirmmima {
+          top: 735px; }
+        .main .login-content dl .dd2 .text-confirmmima {
+          top: 736px; }
+        .main .login-content dl .dd2 .years {
+          position: absolute;
+          top: 786px;
+          left: 29px;
+          color: #7d7d7e;
+          width: 196px;
+          height: 574px; }
+        .main .login-content dl .dd2 #years {
+          display: none;
+          left: 17px;
+          color: #ffffff;
+          font-size: 20px; }
+        .main .login-content dl .dd2 #months {
+          display: none;
+          left: 320px;
+          color: #ffffff;
+          font-size: 20px; }
+        .main .login-content dl .dd2 #dates {
+          display: none;
+          left: 610px;
+          color: #ffffff;
+          font-size: 20px; }
+        .main .login-content dl .dd2 .months {
+          position: absolute;
+          top: 786px;
+          left: 313px;
+          color: #7d7d7e;
+          width: 196px;
+          height: 574px; }
+        .main .login-content dl .dd2 .dates {
+          position: absolute;
+          top: 786px;
+          left: 613px;
+          color: #7d7d7e;
+          width: 196px;
+          height: 574px; }
+        .main .login-content dl .dd2 .times {
+          position: absolute;
+          top: 810px;
+          color: #7d7d7e;
+          border: none;
+          outline: none;
+          background: transparent; }
+        .main .login-content dl .dd2 #checkbox1 {
+          position: absolute;
+          top: 839px;
+          left: 175px;
+          transform: scale(1.5); }
+        .main .login-content dl .dd2 #checkbox2 {
+          position: absolute;
+          top: 916px;
+          left: 175px;
+          transform: scale(1.5); }
+        .main .login-content dl .dd2 .wenzi1 {
+          position: absolute;
+          top: 850px;
+          left: 56px; }
+        .main .login-content dl .dd2 .wenzi2 {
+          position: absolute;
+          top: 928px;
+          left: 56px; }
+        .main .login-content dl .dd2 .zhuce {
+          position: absolute;
+          top: 1020px;
+          left: 208px;
+          background: #626566;
+          color: #ffffff;
+          width: 245px;
+          height: 40px;
+          border: none;
+          outline: none;
+          font-size: 18px; }
+          .main .login-content dl .dd2 .zhuce:hover {
+            background: #56595b; }
+      .main .login-content dl .dd3 {
+        display: block;
+        position: relative;
+        width: 655px;
+        height: 214px; }
+        .main .login-content dl .dd3 .line {
+          position: absolute;
+          top: -2px;
+          left: 20px;
+          width: 610px;
+          height: 1px;
+          background: #4e5152; }
+        .main .login-content dl .dd3 .yundanhao {
+          position: absolute;
+          font-size: 20px;
+          left: 20px;
+          top: 18px;
+          color: #7d7d7e; }
+        .main .login-content dl .dd3 .jixu {
+          position: absolute;
+          top: 100px;
+          left: 20px;
+          background: #626566;
+          color: #ffffff;
+          width: 245px;
+          height: 40px;
+          border: none;
+          outline: none;
+          font-size: 18px; }
+          .main .login-content dl .dd3 .jixu:hover {
+            background: #56595b; }
+      .main .login-content dl .dt4 {
+        position: relative;
+        width: 1425px;
+        height: 329px;
+        background: url(../imgs/index-imgs/background01.png);
+        background-position: 50% 50%;
+        margin-left: -383px;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat; }
+        .main .login-content dl .dt4 h2 {
+          display: block;
+          width: 100%;
+          height: 137px;
+          position: absolute;
+          font-size: 37px;
+          color: #ffffff; }
+          .main .login-content dl .dt4 h2 span {
+            position: absolute;
+            top: 90px;
+            left: calc(50% - 140px); }
+        .main .login-content dl .dt4 .icon-phone, .main .login-content dl .dt4 #span1 {
+          position: absolute;
+          top: 170px;
+          left: calc(50% - 140px);
+          color: #969696; }
+        .main .login-content dl .dt4 .icon-youjian, .main .login-content dl .dt4 #span2 {
+          position: absolute;
+          top: 220px;
+          left: calc(50% - 140px);
+          color: #969696; }
+    .main .login-content .dt5 .footer {
+      width: 1425px;
+      margin-left: -383px; }
+      .main .login-content .dt5 .footer .payattention .payattention-content {
+        top: 20px; }
+        .main .login-content .dt5 .footer .payattention .payattention-content span {
+          top: 0; }
+      .main .login-content .dt5 .footer .line {
+        width: 1425px; }
+      .main .login-content .dt5 .footer .shuoming {
+        top: 0; }

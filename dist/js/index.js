@@ -1,3 +1,19 @@
+// $(function() {
+
+//     var scrollTop = $(window).scrollTop()
+//     console.log(scrollTop);
+
+// })
+
+
+
+
+
+
+
+
+
+
 
 var swiper = new Swiper('.swiper-container', {
       slidesPerView: 4,
