@@ -41,10 +41,10 @@
           font-size: .291667rem;
           letter-spacing: .0625rem;
           color: #b5b5b5;
-          font-family: Helvetica Neue LT W06_35 Thin,Helvetica Neue,Helvetica,Arial,sans-serif; }
+          font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif; }
     .header .header-content .navigation-title {
       position: absolute;
-      top: 0.125rem;
+      top: .125rem;
       left: 13.395833rem;
       width: 2.7rem;
       height: .833333rem;
@@ -56,12 +56,12 @@
         left: 0;
         font-family: icomoon !important;
         font-weight: 400;
-        font-size: .625rem;
-        letter-spacing: .002083rem; }
+        font-size: 32px;
+        letter-spacing: -2px; }
       .header .header-content .navigation-title .SWITZERLAND {
         position: absolute;
-        right: -.125rem;
-        bottom: -.083333rem;
+        right: -16px;
+        bottom: -12px;
         font-size: xx-small;
         color: #ffffff;
         letter-spacing: .041667rem;
@@ -138,7 +138,7 @@
   z-index: 1; }
   .search .search-form {
     position: absolute;
-    margin: 0  .625rem; }
+    margin: 0 .625rem; }
     .search .search-form .fa-search {
       position: absolute;
       font-size: 32px;
@@ -290,16 +290,18 @@
       color: #303335; }
 
 /* 以下实际使用若已初始化可删除 .nav height父级需逐级设置为100%*/
-body, html {
+body,
+html {
   height: 100%;
   background: #E2E2E2; }
 
-body, ul {
+body,
+ul {
   margin: 0;
   padding: 0; }
 
 body {
-  font: 14px "微软雅黑","宋体","Arial Narrow",HELVETICA;
+  font: 14px "微软雅黑", "宋体", "Arial Narrow", HELVETICA;
   -webkit-text-size-adjust: 100%; }
 
 li {
@@ -441,11 +443,13 @@ a {
 .nav-show .nav-more {
   transform: rotate(90deg); }
 
-.nav-show, .nav-item > a:hover {
+.nav-show,
+.nav-item > a:hover {
   color: #FFF;
   background: rgba(0, 0, 0, 0.1); }
 
-.nav-show > a:before, .nav-item > a:hover:before {
+.nav-show > a:before,
+.nav-item > a:hover:before {
   opacity: 1; }
 
 .nav-item li:hover a {

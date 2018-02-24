@@ -1,0 +1,182 @@
+{% extends './layout.html' %} {% block title %} index {% endblock %} {% block head %}
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/hufu.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="css/iconfont.css"> {% endblock %} {% block content %}
+
+
+
+<!-- 头部 -->
+{% include "header.html" %}
+<!-- 主体 -->
+<div class="container">
+    <div class="mianshuang">
+        <h1>面霜</h1>
+        <span class="span1">La Prairie 面霜可为您带来奢华体验。提供<br/>多种奢华美肤配方，呈现至臻保湿和补水<br/>效果。见证损伤修复、细纹消退的美丽奇</span>
+        <span class="span2">迹。肌肤再现紧致、光泽和弹性。</span>
+    </div>
+    <div class="tab">
+        <ul class="title">
+
+            <li><input type="radio" name="radio" class="radio" id="radio1" checked></li>
+            <li><input type="radio" name="radio" class="radio" id="radio2"></li>
+            <li><input type="radio" name="radio" class="radio" id="radio3"></li>
+            <li style="padding-right: 0;"><input type="radio" name="radio" class="radio" id="radio4"></li>
+        </ul>
+        <div class="leixing">
+            <span>防晒</span>
+            <span style="left:70px;">全部</span>
+            <span style="left:221px;">SPF</span>
+            <span style="left:381px;">全天</span>
+            <span style="left:532px;">晚上</span>
+        </div>
+        <div id="content">
+            <div class="mod" id="mod1">
+                <img src="imgs/hufu-imgs/content1-1.png " alt=" " id="img1 " class="img-common ">
+                <div class="product product1 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+                <img src="imgs/hufu-imgs/content1-2.png " alt=" " id="img2 " class="img-common ">
+                <div class="product product2 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+                <img src="imgs/hufu-imgs/content1-3.png " alt=" " id="img3 " class="img-common ">
+                <div class="product product3 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+                <img src="imgs/hufu-imgs/content1-4.png " alt=" " id="img4 " class="img-common ">
+                <div class="product product4 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+                <img src="imgs/hufu-imgs/content1-5.png " alt=" " id="img5 " class="img-common ">
+                <div class="product product5 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+                <img src="imgs/hufu-imgs/content1-6.png " alt=" " id="img6 " class="img-common ">
+                <div class="product product6 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+            </div>
+            <div class="mod " id="mod2 " style="display: none ">
+                <img src="imgs/hufu-imgs/content1-6.png " alt=" " id="img6 ">
+                <div class="product6 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+            </div>
+            <div class="mod " id="mod3 " style="display: none ">
+                <img src="imgs/hufu-imgs/content1-1.png " alt=" " id="img1 " class="img-common ">
+                <div class="product product1 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+                <img src="imgs/hufu-imgs/content1-2.png " alt=" " id="img2 " class="img-common ">
+                <div class="product product2 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+                <img src="imgs/hufu-imgs/content1-3.png " alt=" " id="img3 " class="img-common ">
+                <div class="product product3 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+                <img src="imgs/hufu-imgs/content1-4.png " alt=" " id="img4 " class="img-common ">
+                <div class="product product4 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+                <img src="imgs/hufu-imgs/content1-5.png " alt=" " id="img5 " class="img-common ">
+                <div class="product product5 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+                <img src="imgs/hufu-imgs/content1-6.png " alt=" " id="img6 " class="img-common ">
+                <div class="product product6 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+            </div>
+            <div class="mod " id="mod4 " style="display: none ">
+                <img src="imgs/hufu-imgs/content1-4.png " alt=" " id="img4 ">
+                <div class="product1 ">
+                    <span class="span1 ">SKIN CAVIAR</span><br>
+                    <span class="span2 ">LUXE CREAM</span><br>
+                    <span class="span3 ">鱼子精华琼贵面霜</span><br><br>
+                    <div class="line "></div><br>
+                    <span class="span4 ">紧致提升面霜</span><br><br>
+                    <span class="span5 ">¥ 3,900</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- 尾部 -->
+{% include "footer.html " %}
+
+<script src="js/lib/jquery-3.2.1.min (1).js "></script>
+<script src="js/header.js "></script>
+<script src="js/lib/swiper.min.js "></script>
+<script src="js/hufu.js "></script>
+{% endblock %}

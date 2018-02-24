@@ -1,0 +1,381 @@
+.container {
+    width: 100%;
+    font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.container .mianshuang {
+    position: relative;
+    width: 100%;
+    height: 512px;
+    background-image: url("../imgs/hufu-imgs/bgi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.container .mianshuang h1 {
+    position: absolute;
+    top: 170px;
+    left: 930px;
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.container .mianshuang .span1 {
+    position: absolute;
+    width: 376px;
+    top: 230px;
+    left: 776px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.container .mianshuang .span2 {
+    position: absolute;
+    width: 370px;
+    top: 312px;
+    left: 809px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.container .tab {
+    width: 100%;
+    background: #2f3335;
+}
+
+.container .tab .leixing {
+    width: 780px;
+    height: 52px;
+    margin: 0px auto;
+}
+
+.container .tab .leixing span {
+    position: relative;
+    top: 0px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: .3px;
+}
+
+.title {
+    position: relative;
+    top: 42px;
+    display: flex;
+    justify-content: center;
+    width: 780px;
+    height: 52px;
+    margin: 0 auto;
+}
+
+.title span {
+    position: relative;
+    left: -40px;
+    line-height: 52px;
+    padding-right: 140px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: .3px;
+}
+
+.title li {
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 50%;
+    padding-right: 140px;
+    color: #ffffff;
+}
+
+.title li input {
+    width: 30px;
+    height: 52px;
+}
+
+.title li span {
+    position: absolute;
+    line-height: 52px;
+    font-size: 20px;
+    font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: .3px;
+}
+
+#content {
+    margin: 0;
+    width: 100%;
+}
+
+#content #mod1,
+#content #mod3 {
+    height: 1200px;
+}
+
+#content #mod1 #img1,
+#content #mod3 #img1 {
+    width: 360px;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+
+#content #mod1 .product1,
+#content #mod3 .product1 {
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 1111px;
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#content #mod1 .product .span1,
+#content #mod3 .product .span1 {
+    font-size: 20px;
+}
+
+#content #mod1 .product .span2,
+#content #mod3 .product .span2 {
+    font-size: 20px;
+    color: #b5b5b5;
+}
+
+#content #mod1 .product .span3,
+#content #mod3 .product .span3 {
+    font-size: 20px;
+}
+
+#content #mod1 .product .line,
+#content #mod3 .product .line {
+    position: absolute;
+    left: 146px;
+    top: 90px;
+    width: 60px;
+    height: 1px;
+    background: #b5b5b5;
+}
+
+#content #mod1 .product .span4,
+#content #mod3 .product .span4 {
+    font-size: 16px;
+    color: #b5b5b5;
+}
+
+#content #mod1 .product .span5,
+#content #mod3 .product .span5 {
+    font-size: 20px;
+}
+
+#content #mod1 .product2,
+#content #mod3 .product2 {
+    display: block;
+    position: absolute;
+    left: 495px;
+    top: 1111px;
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#content #mod1 .product3,
+#content #mod3 .product3 {
+    display: block;
+    position: absolute;
+    left: 920px;
+    top: 1111px;
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#content #mod1 .product4,
+#content #mod3 .product4 {
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 1566px;
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#content #mod1 .product5,
+#content #mod3 .product5 {
+    display: block;
+    position: absolute;
+    left: 495px;
+    top: 1566px;
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#content #mod1 .product6,
+#content #mod3 .product6 {
+    display: block;
+    position: absolute;
+    left: 920px;
+    top: 1566px;
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#content #mod1 #img2,
+#content #mod3 #img2 {
+    width: 360px;
+    position: absolute;
+    top: 110px;
+    left: 510px;
+}
+
+#content #mod1 #img3,
+#content #mod3 #img3 {
+    width: 360px;
+    position: absolute;
+    top: 110px;
+    left: 880px;
+}
+
+#content #mod1 #img4,
+#content #mod3 #img4 {
+    width: 360px;
+    position: absolute;
+    top: 700px;
+    left: 130px;
+}
+
+#content #mod1 #img5,
+#content #mod3 #img5 {
+    width: 360px;
+    position: absolute;
+    top: 700px;
+    left: 510px;
+}
+
+#content #mod1 #img6,
+#content #mod3 #img6 {
+    width: 360px;
+    position: absolute;
+    top: 700px;
+    left: 880px;
+}
+
+#content #mod2,
+#content #mod4 {
+    position: relative;
+    height: 1000px;
+}
+
+#content #mod2 #img6,
+#content #mod2 #img4,
+#content #mod4 #img6,
+#content #mod4 #img4 {
+    width: 360px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#content #mod2 .product6,
+#content #mod2 .product1,
+#content #mod4 .product6,
+#content #mod4 .product1 {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 375px;
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#content #mod2 .product6 .span1,
+#content #mod2 .product1 .span1,
+#content #mod4 .product6 .span1,
+#content #mod4 .product1 .span1 {
+    font-size: 20px;
+}
+
+#content #mod2 .product6 .span2,
+#content #mod2 .product1 .span2,
+#content #mod4 .product6 .span2,
+#content #mod4 .product1 .span2 {
+    font-size: 20px;
+    color: #b5b5b5;
+}
+
+#content #mod2 .product6 .span3,
+#content #mod2 .product1 .span3,
+#content #mod4 .product6 .span3,
+#content #mod4 .product1 .span3 {
+    font-size: 20px;
+}
+
+#content #mod2 .product6 .line,
+#content #mod2 .product1 .line,
+#content #mod4 .product6 .line,
+#content #mod4 .product1 .line {
+    position: absolute;
+    left: 146px;
+    top: 90px;
+    width: 60px;
+    height: 1px;
+    background: #b5b5b5;
+}
+
+#content #mod2 .product6 .span4,
+#content #mod2 .product1 .span4,
+#content #mod4 .product6 .span4,
+#content #mod4 .product1 .span4 {
+    font-size: 16px;
+    color: #b5b5b5;
+}
+
+#content #mod2 .product6 .span5,
+#content #mod2 .product1 .span5,
+#content #mod4 .product6 .span5,
+#content #mod4 .product1 .span5 {
+    font-size: 20px;
+}
+
+#content #mod4 #img4 {
+    position: absolute;
+    top: -120px;
+    left: 0px;
+}
+
+#content #mod4 .product1 {
+    position: absolute;
+    left: 40px;
+    top: 460px;
+}
+
+#content div {
+    display: none;
+}
+
+#content .mod {
+    display: block;
+}
