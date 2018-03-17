@@ -1,0 +1,125 @@
+{% extends './layout.html' %}
+{% block title %} index {% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+
+{% endblock  %}
+{% block content %}
+
+
+
+    <!-- 头部 -->
+    {% include "header.html" %}
+    <!-- 主体 -->
+    <div class="container">
+        <div class="yuzijinghua">
+            <div class="product-main">
+                <h2 class="title-big1" lang="en">
+                SKIN CAVIAR
+                </h2>
+                <h2 class="title-big2" lang="en">
+                ESSENCE-IN-LOTION
+                </h2>
+                <h2 class="title-big3">
+                鱼子精华紧致精粹露
+                </h2>
+                <div class="title-big4">
+                精粹露护理
+                </div>       
+            </div>
+            <div class="product-details">
+                <span class="price-sales">¥ 2,200</span>
+                <span class="product-shopping__contents">150 ml / 5.0 fl. oz.</span>
+                <div class="add-products__wrapper">
+                    <div class="dianjikuang">
+                        <input type="button" value="__" class="jian">
+                        <input type="number" name="" id="text" value="1">
+                        <input type="button" value="+" class="jia">
+                    </div>
+                    <a href=""><input type="button" value="添加至购物篮" class="tianjia"></a>
+                </div>
+            </div>
+        </div>
+        <div class="content2">
+            <h3>礼赠</h3>
+            <span>官网独家礼赠：任意购物，即可在购物车选择2件免费体验<br>装；任意购物2件及以上，悦享新品鱼子精华紧致精粹露10ml<br>体验装；购物满4200元（套装除外），额外获赠鱼子精华系<br>列三件体验套装。</span>
+            <input type="button" value="查看更多礼赠" id="chakanlizeng">
+        </div>
+        <div class="content3">
+            <span id="span1">开启紧致和提升护肤第一步</span>
+            <span id="span2">在护肤的第一步使用鱼子精华紧致精粹露，让你的肌肤更好地吸收<br><br>后续精华液和护理产品的养分。 使用鱼子精华紧颜液、鱼子精华琼<br><br>贵眼霜和鱼子精华琼贵面霜完成鱼子精华护理。</span>
+        </div>
+        <img src="imgs/add-imgs/b.jpeg" alt="">
+        <div class="content4">
+            <span id="span1">功效</span>
+            <span id="span2">温润奢宠，轻盈却深彻卓效</span>
+            <span id="span3">即刻沁润，将肌肤预调至理想状态，提升后续护理的紧致效果。</span>
+        </div>
+        <div class="content5">
+                <span id="span1">体验</span>
+                <span id="span2">早/晚使用，洁面爽肤之后，将2-3滴精粹露滴至掌心，然后均匀抹</span>
+                <span id="span3">于面部轻拍至吸收。</span>
+                <iframe width="600" height="362" src="https://player.youku.com/embed/XMzI0MDkxNzAxMg?client_id=bf7aad0f6b213f02&amp;password=undefined&amp;autoplay=false" id="iframeId" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+        </div>
+        <div class="content6"></div>
+        <div class="content7">
+            <div class="content7-main">
+                <span id="span1">科技</span>
+                <span id="span2">纯净晶澈，活性水状精华。创新的鱼子精华<br>形态，运用先进 的蒸馏技艺提取，凝结密集<br>独特的每一滴鱼子精华奢养。</span>
+                <img src="imgs/add-imgs/d.PNG" alt="">
+            </div>
+        </div>
+        <div class="content8"></div>
+        <div class="content9">
+            <span>完美伙伴</span>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="imgs/add-imgs/e.png" alt=""></div>
+                    <div class="swiper-slide"><img src="imgs/add-imgs/f.png" alt=""></div>
+                    <div class="swiper-slide"><img src="imgs/add-imgs/g.png" alt=""></div>
+                    <div class="swiper-slide"><img src="imgs/add-imgs/h.png" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination">
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="content10">
+            <div class="content10-content">
+                <span id="span1">离您位置最近的</span>
+                <span id="span2">门店</span>
+                <input type="text" id="search-localcity" placeholder="  搜索你所在的城市">
+            </div>
+        </div>
+        <div class="huiyuan">
+			<div class="huiyuan-content">
+				<p class="p1">尊享会员优惠</p>
+				<p class="p2">输入您的电子邮件地址，订阅品牌资讯</p>
+				<span >电子邮件*</span>
+				<input type="text" name="" id="" class="email">
+				<a href=""><input type="button" value="下一页"></a>
+				<input type="checkbox" name="" id=""><p class="p3">我愿意订阅莱珀妮品牌资讯，了解最新产品和活动信息</p>
+			</div>
+		</div>
+    </div>
+    <!-- 尾部 -->
+    {% include "footer.html" %}
+    
+<script src="js/lib/jquery-3.2.1.min (1).js"></script>
+<script src="js/header.js"></script>
+<script src="js/lib/swiper.min.js"></script>
+<script src="js/add.js"></script>
+{% endblock %}

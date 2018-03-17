@@ -1,301 +1,301 @@
-// .container {
-//     width: 100%;
-//     font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
-//     font-weight: 400;
-//     .mianshuang {
-//         position: relative;
-//         width: 100%;
-//         height: 512px;
-//         background-image: url("../imgs/hufu-imgs/bgi.jpg");
-//         background-repeat: no-repeat;
-//         background-size: cover;
-//         background-position: 50% 50%;
-//         width: 100%;
-//         h1 {
-//             position: absolute;
-//             top: 170px;
-//             left: 930px;
-//             color: #ffffff;
-//             font-size: 34px;
-//             font-weight: 400;
-//         }
-//         .span1 {
-//             position: absolute;
-//             width: 376px;
-//             top: 230px;
-//             left: 776px;
-//             font-size: 20px;
-//             color: #ffffff;
-//         }
-//         .span2 {
-//             position: absolute;
-//             width: 370px;
-//             top: 312px;
-//             left: 809px;
-//             font-size: 20px;
-//             color: #ffffff;
-//         }
-//     }
-//     .tab {
-//         width: 100%;
-//         background: #2f3335;
-//         .leixing {
-//             width: 780px;
-//             height: 52px;
-//             margin: 0px auto;
-//             span {
-//                 position: relative;
-//                 top: 0px;
-//                 color: #ffffff;
-//                 font-size: 20px;
-//                 font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
-//                 letter-spacing: .3px;
-//             }
-//         }
-//     }
-// }
-// .title {
-//     position: relative;
-//     top: 42px;
-//     display: flex;
-//     justify-content: center;
-//     width: 780px;
-//     height: 52px;
-//     margin: 0 auto;
-//     span {
-//         position: relative;
-//         left: -40px;
-//         line-height: 52px;
-//         padding-right: 140px;
-//         color: #ffffff;
-//         font-size: 20px;
-//         font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
-//         letter-spacing: .3px;
-//     }
-// }
-// .title li {
-//     display: inline-block;
-//     text-align: center;
-//     width: 60px;
-//     height: 52px;
-//     line-height: 52px;
-//     border-radius: 50%;
-//     padding-right: 140px;
-//     color: #ffffff;
-//     input {
-//         width: 30px;
-//         height: 52px;
-//     }
-//     span {
-//         position: absolute;
-//         line-height: 52px;
-//         font-size: 20px;
-//         font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
-//         letter-spacing: .3px;
-//     }
-// }
-// #content {
-//     margin: 0;
-//     width: 100%;
-//     #mod1,
-//     #mod3 {
-//         height: 1200px;
-//         #img1 {
-//             width: 360px;
-//             position: absolute;
-//             top: 110px;
-//             left: 130px;
-//         }
-//         .product1 {
-//             display: block;
-//             position: absolute;
-//             left: 40px;
-//             top: 1110px;
-//             width: 360px;
-//             height: 200px;
-//             text-align: center;
-//             color: #ffffff;
-//             font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
-//         }
-//         .product {
-//             // display: block;
-//             .span1 {
-//                 font-size: 20px;
-//             }
-//             .span2 {
-//                 font-size: 20px;
-//                 color: #b5b5b5;
-//             }
-//             .span3 {
-//                 font-size: 20px;
-//             }
-//             .line {
-//                 position: absolute;
-//                 left: 146px;
-//                 top: 90px;
-//                 width: 60px;
-//                 height: 1px;
-//                 background: #b5b5b5;
-//             }
-//             .span4 {
-//                 font-size: 16px;
-//                 color: #b5b5b5;
-//             }
-//             .span5 {
-//                 font-size: 20px;
-//             }
-//         }
-//         .product2 {
-//             // display: block;
-//             position: absolute;
-//             left: 510px;
-//             top: 490px;
-//             width: 360px;
-//             height: 200px;
-//             text-align: center;
-//             color: #ffffff;
-//             font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
-//         }
-//         .product3 {
-//             // display: block;
-//             position: absolute;
-//             left: 880px;
-//             top: 490px;
-//             width: 360px;
-//             height: 200px;
-//             text-align: center;
-//             color: #ffffff;
-//             font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
-//         }
-//         .product4 {
-//             // display: block;
-//             position: absolute;
-//             left: 130px;
-//             top: 1100px;
-//             width: 360px;
-//             height: 200px;
-//             text-align: center;
-//             color: #ffffff;
-//             font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
-//         }
-//         .product5 {
-//             // display: block;
-//             position: absolute;
-//             left: 510px;
-//             top: 1100px;
-//             width: 360px;
-//             height: 200px;
-//             text-align: center;
-//             color: #ffffff;
-//             font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
-//         }
-//         .product6 {
-//             // display: block;
-//             position: absolute;
-//             left: 880px;
-//             top: 1100px;
-//             width: 360px;
-//             height: 200px;
-//             text-align: center;
-//             color: #ffffff;
-//             font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
-//         }
-//         #img2 {
-//             width: 360px;
-//             position: absolute;
-//             top: 110px;
-//             left: 510px;
-//         }
-//         #img3 {
-//             width: 360px;
-//             position: absolute;
-//             top: 110px;
-//             left: 880px;
-//         }
-//         #img4 {
-//             width: 360px;
-//             position: absolute;
-//             top: 700px;
-//             left: 130px;
-//         }
-//         #img5 {
-//             width: 360px;
-//             position: absolute;
-//             top: 700px;
-//             left: 510px;
-//         }
-//         #img6 {
-//             width: 360px;
-//             position: absolute;
-//             top: 700px;
-//             left: 880px;
-//         }
-//     }
-//     #mod2,
-//     #mod4 {
-//         position: relative;
-//         height: 1000px;
-//         #img6,
-//         #img4 {
-//             width: 360px;
-//             position: absolute;
-//             top: 0px;
-//             left: 0px;
-//         }
-//         .product6,
-//         .product1 {
-//             display: block;
-//             position: absolute;
-//             left: 0px;
-//             top: 375px;
-//             width: 360px;
-//             height: 200px;
-//             text-align: center;
-//             color: #ffffff;
-//             font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
-//             .span1 {
-//                 font-size: 20px;
-//             }
-//             .span2 {
-//                 font-size: 20px;
-//                 color: #b5b5b5;
-//             }
-//             .span3 {
-//                 font-size: 20px;
-//             }
-//             .line {
-//                 position: absolute;
-//                 left: 146px;
-//                 top: 90px;
-//                 width: 60px;
-//                 height: 1px;
-//                 background: #b5b5b5;
-//             }
-//             .span4 {
-//                 font-size: 16px;
-//                 color: #b5b5b5;
-//             }
-//             .span5 {
-//                 font-size: 20px;
-//             }
-//         }
-//     }
-//     #mod4 {
-//         #img4 {
-//             position: absolute;
-//             top: -120px;
-//             left: 0px;
-//         }
-//         .product1 {
-//             position: absolute;
-//             left: 40px;
-//             top: 460px;
-//         }
-//     }
-// }
-// #content div {
-//     display: none;
-// }
-// #content .mod {
-//     display: block;
-// }
+.container {
+    width: 100%;
+    font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    .mianshuang {
+        position: relative;
+        width: 100%;
+        height: 512px;
+        background-image: url("../imgs/hufu-imgs/bgi.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        width: 100%;
+        h1 {
+            position: absolute;
+            top: 170px;
+            left: 930px;
+            color: #ffffff;
+            font-size: 34px;
+            font-weight: 400;
+        }
+        .span1 {
+            position: absolute;
+            width: 376px;
+            top: 230px;
+            left: 776px;
+            font-size: 20px;
+            color: #ffffff;
+        }
+        .span2 {
+            position: absolute;
+            width: 370px;
+            top: 312px;
+            left: 809px;
+            font-size: 20px;
+            color: #ffffff;
+        }
+    }
+    .tab {
+        width: 100%;
+        background: #2f3335;
+        .leixing {
+            width: 780px;
+            height: 52px;
+            margin: 0px auto;
+            span {
+                position: relative;
+                top: 0px;
+                color: #ffffff;
+                font-size: 20px;
+                font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
+                letter-spacing: .3px;
+            }
+        }
+    }
+}
+.title {
+    position: relative;
+    top: 42px;
+    display: flex;
+    justify-content: center;
+    width: 780px;
+    height: 52px;
+    margin: 0 auto;
+    span {
+        position: relative;
+        left: -40px;
+        line-height: 52px;
+        padding-right: 140px;
+        color: #ffffff;
+        font-size: 20px;
+        font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
+        letter-spacing: .3px;
+    }
+}
+.title li {
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 50%;
+    padding-right: 140px;
+    color: #ffffff;
+    input {
+        width: 30px;
+        height: 52px;
+    }
+    span {
+        position: absolute;
+        line-height: 52px;
+        font-size: 20px;
+        font-family: Helvetica Neue LT W06_35 Thin, Helvetica Neue, Helvetica, Arial, sans-serif;
+        letter-spacing: .3px;
+    }
+}
+#content {
+    margin: 0;
+    width: 100%;
+    #mod1,
+    #mod3 {
+        height: 1200px;
+        #img1 {
+            width: 360px;
+            position: absolute;
+            top: 110px;
+            left: 130px;
+        }
+        .product1 {
+            display: block;
+            position: absolute;
+            left: 40px;
+            top: 1110px;
+            width: 360px;
+            height: 200px;
+            text-align: center;
+            color: #ffffff;
+            font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+        .product {
+            // display: block;
+            .span1 {
+                font-size: 20px;
+            }
+            .span2 {
+                font-size: 20px;
+                color: #b5b5b5;
+            }
+            .span3 {
+                font-size: 20px;
+            }
+            .line {
+                position: absolute;
+                left: 146px;
+                top: 90px;
+                width: 60px;
+                height: 1px;
+                background: #b5b5b5;
+            }
+            .span4 {
+                font-size: 16px;
+                color: #b5b5b5;
+            }
+            .span5 {
+                font-size: 20px;
+            }
+        }
+        .product2 {
+            // display: block;
+            position: absolute;
+            left: 510px;
+            top: 490px;
+            width: 360px;
+            height: 200px;
+            text-align: center;
+            color: #ffffff;
+            font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+        .product3 {
+            // display: block;
+            position: absolute;
+            left: 880px;
+            top: 490px;
+            width: 360px;
+            height: 200px;
+            text-align: center;
+            color: #ffffff;
+            font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+        .product4 {
+            // display: block;
+            position: absolute;
+            left: 130px;
+            top: 1100px;
+            width: 360px;
+            height: 200px;
+            text-align: center;
+            color: #ffffff;
+            font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+        .product5 {
+            // display: block;
+            position: absolute;
+            left: 510px;
+            top: 1100px;
+            width: 360px;
+            height: 200px;
+            text-align: center;
+            color: #ffffff;
+            font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+        .product6 {
+            // display: block;
+            position: absolute;
+            left: 880px;
+            top: 1100px;
+            width: 360px;
+            height: 200px;
+            text-align: center;
+            color: #ffffff;
+            font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+        #img2 {
+            width: 360px;
+            position: absolute;
+            top: 110px;
+            left: 510px;
+        }
+        #img3 {
+            width: 360px;
+            position: absolute;
+            top: 110px;
+            left: 880px;
+        }
+        #img4 {
+            width: 360px;
+            position: absolute;
+            top: 700px;
+            left: 130px;
+        }
+        #img5 {
+            width: 360px;
+            position: absolute;
+            top: 700px;
+            left: 510px;
+        }
+        #img6 {
+            width: 360px;
+            position: absolute;
+            top: 700px;
+            left: 880px;
+        }
+    }
+    #mod2,
+    #mod4 {
+        position: relative;
+        height: 1000px;
+        #img6,
+        #img4 {
+            width: 360px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        .product6,
+        .product1 {
+            display: block;
+            position: absolute;
+            left: 0px;
+            top: 375px;
+            width: 360px;
+            height: 200px;
+            text-align: center;
+            color: #ffffff;
+            font-family: Helvetica Neue LT W06_25 UltLt, Helvetica Neue, Helvetica, Arial, sans-serif;
+            .span1 {
+                font-size: 20px;
+            }
+            .span2 {
+                font-size: 20px;
+                color: #b5b5b5;
+            }
+            .span3 {
+                font-size: 20px;
+            }
+            .line {
+                position: absolute;
+                left: 146px;
+                top: 90px;
+                width: 60px;
+                height: 1px;
+                background: #b5b5b5;
+            }
+            .span4 {
+                font-size: 16px;
+                color: #b5b5b5;
+            }
+            .span5 {
+                font-size: 20px;
+            }
+        }
+    }
+    #mod4 {
+        #img4 {
+            position: absolute;
+            top: -120px;
+            left: 0px;
+        }
+        .product1 {
+            position: absolute;
+            left: 40px;
+            top: 460px;
+        }
+    }
+}
+#content div {
+    display: none;
+}
+#content .mod {
+    display: block;
+}

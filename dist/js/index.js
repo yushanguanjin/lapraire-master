@@ -8,7 +8,19 @@
 
 
 
-
+$(function () {              
+    $(window).bind("scroll", function () {  
+        var sTop = $(window).scrollTop();  
+        var sTop = parseInt(sTop); 
+        
+        if (sTop > 3000) {
+            $(".Quick-navigation").css("display","none");
+        } 
+        if (sTop < 3000) {
+            $(".Quick-navigation").css("display","block");
+        }
+    })
+})
 
 
 
@@ -73,7 +85,7 @@ var ScrollManager = (function () {
             navigationElementClass: '.Quick-navigation',
             currentStepClass: 'current',
             smoothScrollEnabled: true,
-            stepsCheckEnabled: true,
+            stepsCheckEnabled: true,                                                                                                                                                                                                                                                                   
 
           
             onScroll: null,
@@ -263,15 +275,7 @@ $(function () {
 })
 
 
-$(function () {              
-    $(window).bind("scroll", function () {  
-        var sTop = $(window).scrollTop();  
-        var sTop = parseInt(sTop); 
-        if (sTop > 2270) {
-            $("..Quick-navigation").css("position","absoulate");
-        }
-    })
-})
+
 
 
 
